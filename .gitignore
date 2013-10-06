@@ -16,7 +16,7 @@
 /tmp
 
 # Ignore secret key
-/config/initializers/secret_token.rb
+#/config/initializers/secret_token.rb
 
 # Ignore database config
 /config/database.yml
