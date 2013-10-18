@@ -9,4 +9,9 @@ FactoryGirl.define do
       admin true
     end
   end
+
+  factory :micropost do
+    content "It does not matter how slow you go so long as you do not stop."
+    user
+  end
 end
